@@ -31,6 +31,133 @@
   },
   "phases": [
     {
+      "phaseNumber": 1,
+      "phaseName": "Assessment, Psychoeducation & Behavioral Activation",
+      "durationWeeks": 3,
+      "goals": [
+        "Understand the CBT model of depression",
+        "Learn relationship between thoughts, emotions, and behaviors",
+        "Complete baseline assessment and symptom tracking",
+        "Implement daily behavioral activation scheduling"
+      ],
+      "interventions": [
+        "Psychoeducation on Depression and CBT Model",
+        "Behavioral Activation - Activity Scheduling",
+        "Mood Monitoring and Baseline Tracking",
+        "Identifying Automatic Thoughts"
+      ],
+      "homeworkAssigned": [
+        "Activity Monitoring Log",
+        "Daily Thought Record"
+      ]
+    },
+    {
+      "phaseNumber": 2,
+      "phaseName": "Cognitive Restructuring & Schema Modification",
+      "durationWeeks": 5,
+      "goals": [
+        "Challenge cognitive distortions and automatic negative thoughts",
+        "Execute behavioral experiments to test assumptions",
+        "Develop balanced alternative core schemas"
+      ],
+      "interventions": [
+        "Cognitive Restructuring - 3-Column Technique",
+        "Behavioral Experiment Planning",
+        "Core Schema Decatastrophizing",
+        "Evidence-Based Thought Challenging"
+      ],
+      "homeworkAssigned": [
+        "7-Column Thought Challenging Record",
+        "Behavioral Experiment Log"
+      ]
+    },
+    {
+      "phaseNumber": 3,
+      "phaseName": "Relapse Prevention & Resilience Building",
+      "durationWeeks": 4,
+      "goals": [
+        "Consolidate therapeutic gains and symptom reduction",
+        "Formulate personalized relapse prevention and early-warning plan",
+        "Establish resilient autonomous maintenance routines"
+      ],
+      "interventions": [
+        "Early Warning Sign Inventory",
+        "Emergency Action Protocol Formulation",
+        "Mastery & Resilience Affirmation",
+        "Post-Treatment Maintenance Plan"
+      ],
+      "homeworkAssigned": [
+        "Comprehensive Relapse Prevention Action Plan",
+        "Coping Card Wallet Reference"
+      ]
+    }
+  ],
+  "progressTracking": {
+    "metrics": [
+      "PHQ-9 score (weekly)",
+      "Exercise completion rate",
+      "Mood ratings",
+      "Activity levels",
+      "Thought records completed",
+      "Skills application frequency"
+    ],
+    "milestones": [
+      {
+        "week": 4,
+        "description": "Baseline to week 4 PHQ-9 reduction of 20%"
+      },
+      {
+        "week": 8,
+        "description": "Consistent use of at least 3 CBT skills"
+      },
+      {
+        "week": 12,
+        "description": "PHQ-9 score in minimal or mild range"
+      }
+    ]
+  },
+  "supportResources": {
+    "crisisContacts": [
+      {
+        "name": "988 Suicide & Crisis Lifeline",
+        "phone": "988",
+        "available": "24/7"
+      },
+      {
+        "name": "Crisis Text Line",
+        "phone": "Text HOME to 741741",
+        "available": "24/7"
+      }
+    ],
+    "additionalResources": [
+      "CBT self-help books recommended list",
+      "Online CBT tools and apps",
+      "Support group information",
+      "Therapist directory for ongoing care"
+    ]
+  },
+  "completionCriteria": {
+    "minimumWeeks": 8,
+    "exerciseCompletionRate": 70,
+    "phq9Improvement": 30,
+    "demonstratedSkills": [
+      "Behavioral activation",
+      "Thought records",
+      "Cognitive restructuring",
+      "Problem solving"
+    ]
+  },
+  "references": [
+    "Beck, A.T., Rush, A.J., Shaw, B.F., & Emery, G. (1979). Cognitive Therapy of Depression. Guilford Press.",
+    "Greenberger, D., & Padesky, C.A. (2015). Mind Over Mood, Second Edition. Guilford Press.",
+    "Wright, J.H., Brown, G.K., Thase, M.E., & Basco, M.R. (2017). Learning Cognitive-Behavior Therapy, Second Edition. American Psychiatric Publishing.",
+    "Cuijpers, P., et al. (2013). A meta-analysis of cognitive-behavioural therapy for adult depression. Journal of Affective Disorders, 142(1-3), 27-35."
+  ],
+  "lastUpdated": "2025-11-23",
+  "developedBy": "clinical Clinical Team",
+  "reviewedBy": "Licensed Clinical Psychologists",
+  "weeklyCurriculum": [
+    {
       "week": 1,
       "phase": "Assessment & Psychoeducation",
       "title": "Understanding Depression and CBT",
@@ -778,69 +905,5 @@
         "Feels confident managing depression independently"
       ]
     }
-  ],
-  "progressTracking": {
-    "metrics": [
-      "PHQ-9 score (weekly)",
-      "Exercise completion rate",
-      "Mood ratings",
-      "Activity levels",
-      "Thought records completed",
-      "Skills application frequency"
-    ],
-    "milestones": [
-      {
-        "week": 4,
-        "description": "Baseline to week 4 PHQ-9 reduction of 20%"
-      },
-      {
-        "week": 8,
-        "description": "Consistent use of at least 3 CBT skills"
-      },
-      {
-        "week": 12,
-        "description": "PHQ-9 score in minimal or mild range"
-      }
-    ]
-  },
-  "supportResources": {
-    "crisisContacts": [
-      {
-        "name": "988 Suicide & Crisis Lifeline",
-        "phone": "988",
-        "available": "24/7"
-      },
-      {
-        "name": "Crisis Text Line",
-        "phone": "Text HOME to 741741",
-        "available": "24/7"
-      }
-    ],
-    "additionalResources": [
-      "CBT self-help books recommended list",
-      "Online CBT tools and apps",
-      "Support group information",
-      "Therapist directory for ongoing care"
-    ]
-  },
-  "completionCriteria": {
-    "minimumWeeks": 8,
-    "exerciseCompletionRate": 70,
-    "phq9Improvement": 30,
-    "demonstratedSkills": [
-      "Behavioral activation",
-      "Thought records",
-      "Cognitive restructuring",
-      "Problem solving"
-    ]
-  },
-  "references": [
-    "Beck, A.T., Rush, A.J., Shaw, B.F., & Emery, G. (1979). Cognitive Therapy of Depression. Guilford Press.",
-    "Greenberger, D., & Padesky, C.A. (2015). Mind Over Mood, Second Edition. Guilford Press.",
-    "Wright, J.H., Brown, G.K., Thase, M.E., & Basco, M.R. (2017). Learning Cognitive-Behavior Therapy, Second Edition. American Psychiatric Publishing.",
-    "Cuijpers, P., et al. (2013). A meta-analysis of cognitive-behavioural therapy for adult depression. Journal of Affective Disorders, 142(1-3), 27-35."
-  ],
-  "lastUpdated": "2025-11-23",
-  "developedBy": "clinical Clinical Team",
-  "reviewedBy": "Licensed Clinical Psychologists"
+  ]
 }

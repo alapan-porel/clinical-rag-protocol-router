@@ -36,7 +36,9 @@ export class TherapyProtocolRouter {
       throw new Error(`Protocol '${trajectory.activeProtocolId}' is not registered.`);
     }
 
-    const currentPhaseDef = proto.phases.find(p => p.phaseNumber === trajectory.currentPhase);
+    const currentPhaseDef = proto.phases.find(
+      p => p.phaseNumber === trajectory.currentPhase || (p as any).week === trajectory.currentPhase
+    );
     if (!currentPhaseDef) {
       throw new Error(`Invalid phase ${trajectory.currentPhase} for protocol ${proto.protocolId}`);
     }
