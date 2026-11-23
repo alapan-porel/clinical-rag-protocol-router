@@ -1,0 +1,50 @@
+{
+  "protocolId": "Somatic_Trauma_Grounding",
+  "name": "Somatic Experiencing and Nervous System Grounding",
+  "framework": "Somatic",
+  "description": "6-week somatic intervention protocol stabilizing autonomic nervous system hyperarousal through interoception.",
+  "targetConditions": [
+    "Hyperarousal",
+    "Trauma Reactivity",
+    "Autonomic Panic"
+  ],
+  "contraindications": [
+    "Active Psychosis",
+    "Severe Dissociation without Supervision"
+  ],
+  "durationWeeks": 6,
+  "phases": [
+    {
+      "phaseNumber": 1,
+      "phaseName": "Orienting & Interoceptive Safety",
+      "durationWeeks": 2,
+      "goals": [
+        "External environmental orienting",
+        "Tracking visceral state safely"
+      ],
+      "interventions": [
+        "5-4-3-2-1 Somatosensory Scanning",
+        "Pendulation between resource and tension"
+      ],
+      "homeworkAssigned": [
+        "Twice daily 3-minute orienting scan"
+      ]
+    },
+    {
+      "phaseNumber": 2,
+      "phaseName": "Vagal Regulation & Discharge",
+      "durationWeeks": 4,
+      "goals": [
+        "Vagal tone upregulation",
+        "Safe completion of survival stress impulses"
+      ],
+      "interventions": [
+        "Physiological Sigh Breathing",
+        "Resonance frequency humming"
+      ],
+      "homeworkAssigned": [
+        "Nervous system state tracking log"
+      ]
+    }
+  ]
+}

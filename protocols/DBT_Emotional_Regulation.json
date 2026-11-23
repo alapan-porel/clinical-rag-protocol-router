@@ -1,0 +1,65 @@
+{
+  "protocolId": "DBT_Emotional_Regulation",
+  "name": "Dialectical Behavior Therapy for Emotional Dysregulation",
+  "framework": "DBT",
+  "description": "Structured 10-week DBT protocol emphasizing mindfulness, distress tolerance, and emotional modulation.",
+  "targetConditions": [
+    "Borderline Traits",
+    "Emotional Dysregulation",
+    "Impulsive Reactions"
+  ],
+  "contraindications": [
+    "Active Psychosis"
+  ],
+  "durationWeeks": 10,
+  "phases": [
+    {
+      "phaseNumber": 1,
+      "phaseName": "Mindfulness & Core Grounding",
+      "durationWeeks": 3,
+      "goals": [
+        "Wise Mind cultivation",
+        "Observe & Describe techniques"
+      ],
+      "interventions": [
+        "Three-Minute Breathing Space",
+        "Sensory Anchoring"
+      ],
+      "homeworkAssigned": [
+        "Daily Wise Mind Journal"
+      ]
+    },
+    {
+      "phaseNumber": 2,
+      "phaseName": "Distress Tolerance & TIPP Skills",
+      "durationWeeks": 4,
+      "goals": [
+        "Crisis survival without exacerbating harm",
+        "Temperature and Paced Breathing"
+      ],
+      "interventions": [
+        "TIPP Protocol",
+        "Radical Acceptance Practice"
+      ],
+      "homeworkAssigned": [
+        "Crisis Survival Plan Matrix"
+      ]
+    },
+    {
+      "phaseNumber": 3,
+      "phaseName": "Emotion Regulation & Interpersonal Effectiveness",
+      "durationWeeks": 3,
+      "goals": [
+        "Opposite Action execution",
+        "DEAR MAN boundary modeling"
+      ],
+      "interventions": [
+        "Opposite Action Matrix",
+        "DEAR MAN Roleplay"
+      ],
+      "homeworkAssigned": [
+        "Interpersonal Boundary Audit"
+      ]
+    }
+  ]
+}

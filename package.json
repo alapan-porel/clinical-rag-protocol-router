@@ -1,0 +1,36 @@
+{
+  "name": "clinical-rag-protocol-router",
+  "version": "1.0.0",
+  "description": "Deterministic Clinical State-Machine Protocol Router & Reflective Time-Gapped Delivery Queue",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": [
+    "clinical-protocols",
+    "cbt",
+    "dbt",
+    "act",
+    "somatic",
+    "state-machine",
+    "time-gapped-messenger",
+    "clinical-rag",
+    "reflective-pacing"
+  ],
+  "author": "Clinical AI Architecture",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.24",
+    "@types/uuid": "^9.0.8",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  }
+}

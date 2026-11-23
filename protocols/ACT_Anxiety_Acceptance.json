@@ -1,0 +1,65 @@
+{
+  "protocolId": "ACT_Anxiety_Acceptance",
+  "name": "Acceptance and Commitment Therapy for Chronic Anxiety",
+  "framework": "ACT",
+  "description": "8-week ACT protocol targeting psychological flexibility, cognitive defusion, and values-committed action.",
+  "targetConditions": [
+    "Generalized Anxiety",
+    "Panic Attacks",
+    "Agoraphobic Avoidance"
+  ],
+  "contraindications": [
+    "Severe Dementia"
+  ],
+  "durationWeeks": 8,
+  "phases": [
+    {
+      "phaseNumber": 1,
+      "phaseName": "Creative Hopelessness & Acceptance",
+      "durationWeeks": 2,
+      "goals": [
+        "Recognize the futility of emotional control struggle",
+        "Cultivate willingness"
+      ],
+      "interventions": [
+        "Tug-of-War with a Monster Metaphor",
+        "Quicksand Metaphor"
+      ],
+      "homeworkAssigned": [
+        "Control Strategy Cost Tracking"
+      ]
+    },
+    {
+      "phaseNumber": 2,
+      "phaseName": "Cognitive Defusion & Self-as-Context",
+      "durationWeeks": 3,
+      "goals": [
+        "Viewing thoughts as linguistic events",
+        "Leaves on a Stream visualization"
+      ],
+      "interventions": [
+        "Repetition Defusion Exercise",
+        "Observer Self Reflection"
+      ],
+      "homeworkAssigned": [
+        "Daily Defusion Log"
+      ]
+    },
+    {
+      "phaseNumber": 3,
+      "phaseName": "Values Clarification & Committed Action",
+      "durationWeeks": 3,
+      "goals": [
+        "Clarify intrinsic personal values",
+        "Take small committed steps despite fear"
+      ],
+      "interventions": [
+        "Values Bullseye Exercise",
+        "SMART Committed Action Pledges"
+      ],
+      "homeworkAssigned": [
+        "Weekly Values Action Step"
+      ]
+    }
+  ]
+}

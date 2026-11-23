@@ -1,0 +1,27 @@
+{
+  "trajectory_cbt_week1": {
+    "patientId": "pt_101",
+    "activeProtocolId": "CBT_Depression",
+    "currentPhase": 1,
+    "currentWeek": 1,
+    "completedInterventions": [],
+    "pendingHomework": [
+      "Activity Monitoring Log"
+    ],
+    "lastSessionDate": "2026-11-20T10:00:00Z"
+  },
+  "trajectory_cbt_phase1_complete": {
+    "patientId": "pt_102",
+    "activeProtocolId": "CBT_Depression",
+    "currentPhase": 1,
+    "currentWeek": 3,
+    "completedInterventions": [
+      "Psychoeducation on Depression and CBT Model",
+      "Behavioral Activation - Activity Scheduling",
+      "Mood Monitoring and Baseline Tracking",
+      "Identifying Automatic Thoughts"
+    ],
+    "pendingHomework": [],
+    "lastSessionDate": "2026-11-22T10:00:00Z"
+  }
+}

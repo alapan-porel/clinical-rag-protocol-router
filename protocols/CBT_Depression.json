@@ -1,0 +1,846 @@
+{
+  "protocolId": "CBT_Depression",
+  "name": "Cognitive Behavioral Therapy for Depression",
+  "shortName": "CBT Depression",
+  "category": "Depression",
+  "framework": "CBT",
+  "description": "Evidence-based Cognitive Behavioral Therapy protocol designed to help identify and modify negative thought patterns and behaviors contributing to depression. This structured 12-week program combines behavioral activation, cognitive restructuring, and relapse prevention.",
+  "version": "1.0",
+  "evidenceBased": true,
+  "duration": {
+    "weeks": 12,
+    "sessionsPerWeek": 2,
+    "minutesPerSession": 15
+  },
+  "targetConditions": [
+    "Major Depressive Disorder",
+    "Persistent Depressive Disorder",
+    "Mild to Moderate Depression"
+  ],
+  "contraindications": [
+    "Active suicidal ideation requiring immediate intervention",
+    "Severe depression requiring hospitalization",
+    "Active psychosis",
+    "Severe substance use disorder (requires concurrent treatment)"
+  ],
+  "prerequisites": {
+    "assessmentRequired": "PHQ-9",
+    "minimumScore": 5,
+    "maximumScore": 19,
+    "requiresTherapistApproval": false
+  },
+  "phases": [
+    {
+      "week": 1,
+      "phase": "Assessment & Psychoeducation",
+      "title": "Understanding Depression and CBT",
+      "goals": [
+        "Understand the CBT model",
+        "Learn about the connection between thoughts, feelings, and behaviors",
+        "Complete baseline assessment"
+      ],
+      "objectives": [
+        "Introduce cognitive-behavioral model of depression",
+        "Identify personal depression symptoms and patterns",
+        "Set realistic treatment goals",
+        "Build therapeutic alliance and motivation"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "w1e1",
+          "name": "CBT Model Introduction",
+          "type": "psychoeducation",
+          "duration": 10,
+          "description": "Learn how thoughts, feelings, and behaviors are interconnected in depression",
+          "instructions": "Review the CBT model diagram. Write down one recent situation where you felt down and identify the thoughts, feelings, and behaviors involved.",
+          "materials": [
+            "CBT Triangle Diagram",
+            "Example scenarios"
+          ]
+        },
+        {
+          "exerciseId": "w1e2",
+          "name": "Depression Symptom Tracking",
+          "type": "monitoring",
+          "duration": 5,
+          "description": "Begin tracking your daily mood and activities",
+          "instructions": "Rate your mood 3 times daily (morning, afternoon, evening) on a scale of 0-10. Note any activities you engaged in.",
+          "materials": [
+            "Mood tracking worksheet"
+          ],
+          "frequency": "3x daily"
+        },
+        {
+          "exerciseId": "w1e3",
+          "name": "Goal Setting Worksheet",
+          "type": "planning",
+          "duration": 10,
+          "description": "Set specific, measurable goals for therapy",
+          "instructions": "Write down 3 goals you want to achieve through this program. Make them SMART (Specific, Measurable, Achievable, Relevant, Time-bound).",
+          "materials": [
+            "SMART goals worksheet"
+          ]
+        }
+      ],
+      "homeworkAssignments": [
+        "Complete mood tracking 3x daily",
+        "Read CBT psychoeducation handout",
+        "Identify 3 personal depression triggers"
+      ],
+      "checkpoints": [
+        "Understands CBT model basics",
+        "Has begun mood tracking",
+        "Has set at least 2 therapy goals"
+      ]
+    },
+    {
+      "week": 2,
+      "phase": "Behavioral Activation - Part 1",
+      "title": "Activity Scheduling and Pleasure",
+      "goals": [
+        "Increase engagement in pleasant activities",
+        "Break the cycle of withdrawal and isolation",
+        "Identify activities that improve mood"
+      ],
+      "objectives": [
+        "Learn about behavioral activation",
+        "Create a personalized activity schedule",
+        "Distinguish between necessary and pleasurable activities",
+        "Begin increasing daily activity levels"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "w2e1",
+          "name": "Activity-Mood Connection",
+          "type": "monitoring",
+          "duration": 10,
+          "description": "Track activities and their impact on your mood",
+          "instructions": "For each activity, rate your mood before (0-10) and after (0-10). Notice patterns in what activities improve your mood.",
+          "materials": [
+            "Activity-mood log"
+          ],
+          "frequency": "daily"
+        },
+        {
+          "exerciseId": "w2e2",
+          "name": "Pleasant Activities Inventory",
+          "type": "assessment",
+          "duration": 15,
+          "description": "Create a list of activities you used to enjoy or want to try",
+          "instructions": "List 20 activities across categories: social, physical, creative, learning, self-care, outdoor. Rate each for feasibility (1-5).",
+          "materials": [
+            "Pleasant activities checklist"
+          ]
+        },
+        {
+          "exerciseId": "w2e3",
+          "name": "Weekly Activity Schedule",
+          "type": "planning",
+          "duration": 15,
+          "description": "Schedule pleasant activities into your week",
+          "instructions": "Choose 5-7 activities from your inventory. Schedule specific times for each. Start small and build gradually.",
+          "materials": [
+            "Weekly schedule template"
+          ]
+        }
+      ],
+      "homeworkAssignments": [
+        "Complete activity-mood tracking daily",
+        "Complete at least 3 scheduled pleasant activities",
+        "Notice which activities most improve mood"
+      ],
+      "checkpoints": [
+        "Has completed pleasant activities inventory",
+        "Has scheduled activities for the week",
+        "Demonstrates understanding of activity-mood connection"
+      ]
+    },
+    {
+      "week": 3,
+      "phase": "Behavioral Activation - Part 2",
+      "title": "Overcoming Avoidance and Building Routines",
+      "goals": [
+        "Identify and challenge avoidance behaviors",
+        "Establish healthy daily routines",
+        "Increase mastery activities"
+      ],
+      "objectives": [
+        "Recognize patterns of avoidance",
+        "Use gradual exposure to overcome avoidance",
+        "Develop structured daily routines",
+        "Balance pleasure and mastery activities"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "w3e1",
+          "name": "Avoidance Identification",
+          "type": "cognitive",
+          "duration": 10,
+          "description": "Identify tasks and situations you've been avoiding",
+          "instructions": "List 5-10 things you've been avoiding. For each, rate difficulty (1-10) and importance (1-10). Start with easiest/most important.",
+          "materials": [
+            "Avoidance hierarchy worksheet"
+          ]
+        },
+        {
+          "exerciseId": "w3e2",
+          "name": "Graded Task Assignment",
+          "type": "behavioral",
+          "duration": 20,
+          "description": "Break down avoided tasks into manageable steps",
+          "instructions": "Choose one avoided task. Break it into 5-7 small steps. Complete the first step this week.",
+          "materials": [
+            "Task breakdown worksheet"
+          ]
+        },
+        {
+          "exerciseId": "w3e3",
+          "name": "Daily Routine Builder",
+          "type": "planning",
+          "duration": 15,
+          "description": "Create a consistent daily routine structure",
+          "instructions": "Design a daily routine with consistent wake/sleep times, meals, activities. Include both pleasant and necessary activities.",
+          "materials": [
+            "Routine template",
+            "Sleep hygiene guidelines"
+          ]
+        }
+      ],
+      "homeworkAssignments": [
+        "Complete first step of graded task",
+        "Follow daily routine structure",
+        "Continue activity-mood tracking"
+      ],
+      "checkpoints": [
+        "Has identified avoidance patterns",
+        "Has begun addressing one avoided task",
+        "Has established basic daily routine"
+      ]
+    },
+    {
+      "week": 4,
+      "phase": "Cognitive Restructuring - Part 1",
+      "title": "Identifying Negative Automatic Thoughts",
+      "goals": [
+        "Learn to identify automatic thoughts",
+        "Recognize common thinking patterns in depression",
+        "Begin connecting thoughts to mood changes"
+      ],
+      "objectives": [
+        "Understand automatic thoughts concept",
+        "Identify personal negative thought patterns",
+        "Learn the thought record technique",
+        "Recognize cognitive distortions"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "w4e1",
+          "name": "Automatic Thought Introduction",
+          "type": "psychoeducation",
+          "duration": 10,
+          "description": "Learn about automatic thoughts and their role in depression",
+          "instructions": "Review examples of automatic thoughts. Practice catching your own thoughts when mood shifts.",
+          "materials": [
+            "Automatic thoughts handout",
+            "Examples list"
+          ]
+        },
+        {
+          "exerciseId": "w4e2",
+          "name": "Simple Thought Record",
+          "type": "monitoring",
+          "duration": 15,
+          "description": "Track situations, thoughts, and feelings",
+          "instructions": "When you notice mood change: (1) Describe situation, (2) Identify thought, (3) Name emotion and rate intensity (0-100).",
+          "materials": [
+            "3-column thought record"
+          ],
+          "frequency": "3-5x per week"
+        },
+        {
+          "exerciseId": "w4e3",
+          "name": "Cognitive Distortions Checklist",
+          "type": "assessment",
+          "duration": 10,
+          "description": "Learn common thinking errors in depression",
+          "instructions": "Review 10 common cognitive distortions. Identify which ones you use most frequently. Find examples from your thought records.",
+          "materials": [
+            "Cognitive distortions handout with examples"
+          ]
+        }
+      ],
+      "homeworkAssignments": [
+        "Complete 3-5 thought records this week",
+        "Identify cognitive distortions in your thinking",
+        "Continue behavioral activation activities"
+      ],
+      "checkpoints": [
+        "Can identify automatic thoughts",
+        "Has completed multiple thought records",
+        "Recognizes own common cognitive distortions"
+      ]
+    },
+    {
+      "week": 5,
+      "phase": "Cognitive Restructuring - Part 2",
+      "title": "Challenging and Modifying Negative Thoughts",
+      "goals": [
+        "Learn to challenge negative automatic thoughts",
+        "Generate balanced alternative thoughts",
+        "Experience mood improvement through cognitive change"
+      ],
+      "objectives": [
+        "Use evidence-based questioning to challenge thoughts",
+        "Develop balanced alternative perspectives",
+        "Practice the complete thought record",
+        "Measure effectiveness of cognitive restructuring"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "w5e1",
+          "name": "Socratic Questioning",
+          "type": "cognitive",
+          "duration": 15,
+          "description": "Learn to question and evaluate your thoughts",
+          "instructions": "For negative thoughts, ask: What's the evidence? Are there alternative explanations? What would I tell a friend? What's the worst/best/most realistic outcome?",
+          "materials": [
+            "Socratic questions guide",
+            "Practice examples"
+          ]
+        },
+        {
+          "exerciseId": "w5e2",
+          "name": "7-Column Thought Record",
+          "type": "cognitive",
+          "duration": 20,
+          "description": "Complete thought record with evidence and alternatives",
+          "instructions": "Use full thought record: situation, thoughts, emotions, evidence for/against, alternative thought, re-rate emotion.",
+          "materials": [
+            "7-column thought record template"
+          ],
+          "frequency": "3-5x per week"
+        },
+        {
+          "exerciseId": "w5e3",
+          "name": "Alternative Thought Practice",
+          "type": "cognitive",
+          "duration": 10,
+          "description": "Generate balanced alternative thoughts",
+          "instructions": "For each negative thought from this week, write 2-3 alternative balanced thoughts. Rate believability of each (0-100).",
+          "materials": [
+            "Alternative thought worksheet"
+          ]
+        }
+      ],
+      "homeworkAssignments": [
+        "Complete 7-column thought records daily",
+        "Practice Socratic questioning on negative thoughts",
+        "Notice mood changes after cognitive restructuring"
+      ],
+      "checkpoints": [
+        "Can challenge negative thoughts effectively",
+        "Generates balanced alternative thoughts",
+        "Reports some mood improvement from restructuring"
+      ]
+    },
+    {
+      "week": 6,
+      "phase": "Core Beliefs",
+      "title": "Identifying and Understanding Core Beliefs",
+      "goals": [
+        "Understand the concept of core beliefs",
+        "Identify personal core beliefs",
+        "Recognize how core beliefs influence automatic thoughts"
+      ],
+      "objectives": [
+        "Distinguish between automatic thoughts and core beliefs",
+        "Use downward arrow technique",
+        "Identify themes in automatic thoughts",
+        "Begin exploring evidence for/against core beliefs"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "w6e1",
+          "name": "Core Beliefs Introduction",
+          "type": "psychoeducation",
+          "duration": 10,
+          "description": "Learn about core beliefs and their role in depression",
+          "instructions": "Review the three levels: core beliefs \u2192 intermediate beliefs \u2192 automatic thoughts. Understand how they're connected.",
+          "materials": [
+            "Core beliefs pyramid diagram",
+            "Common depression-related core beliefs"
+          ]
+        },
+        {
+          "exerciseId": "w6e2",
+          "name": "Downward Arrow Technique",
+          "type": "cognitive",
+          "duration": 15,
+          "description": "Uncover core beliefs underlying automatic thoughts",
+          "instructions": "Choose a strong negative thought. Ask 'What does that mean about me?' repeatedly until you reach a core belief.",
+          "materials": [
+            "Downward arrow worksheet"
+          ]
+        },
+        {
+          "exerciseId": "w6e3",
+          "name": "Core Belief Identification",
+          "type": "assessment",
+          "duration": 15,
+          "description": "Identify your primary core beliefs",
+          "instructions": "Review your thought records for themes. Common themes often reveal core beliefs. Rate strength of each belief (0-100).",
+          "materials": [
+            "Core beliefs inventory",
+            "Theme identification guide"
+          ]
+        }
+      ],
+      "homeworkAssignments": [
+        "Practice downward arrow technique 2-3 times",
+        "Identify 2-3 core beliefs",
+        "Continue thought records focusing on belief themes"
+      ],
+      "checkpoints": [
+        "Understands core beliefs concept",
+        "Has identified personal core beliefs",
+        "Can connect automatic thoughts to core beliefs"
+      ]
+    },
+    {
+      "week": 7,
+      "phase": "Problem Solving",
+      "title": "Structured Problem Solving Skills",
+      "goals": [
+        "Learn systematic problem-solving approach",
+        "Apply problem-solving to current difficulties",
+        "Reduce feelings of helplessness"
+      ],
+      "objectives": [
+        "Use 5-step problem-solving model",
+        "Distinguish solvable from unsolvable problems",
+        "Generate multiple solution options",
+        "Implement and evaluate solutions"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "w7e1",
+          "name": "Problem-Solving Model",
+          "type": "psychoeducation",
+          "duration": 10,
+          "description": "Learn the 5-step problem-solving approach",
+          "instructions": "Review the 5 steps: (1) Define problem, (2) Brainstorm solutions, (3) Evaluate options, (4) Choose and implement, (5) Review outcome.",
+          "materials": [
+            "Problem-solving flowchart",
+            "Practice examples"
+          ]
+        },
+        {
+          "exerciseId": "w7e2",
+          "name": "Current Problems List",
+          "type": "assessment",
+          "duration": 10,
+          "description": "Identify and prioritize current problems",
+          "instructions": "List all current problems. Rate each for: controllability (1-5), importance (1-5), urgency (1-5). Choose one to work on.",
+          "materials": [
+            "Problems inventory worksheet"
+          ]
+        },
+        {
+          "exerciseId": "w7e3",
+          "name": "Problem-Solving Worksheet",
+          "type": "behavioral",
+          "duration": 20,
+          "description": "Apply structured problem-solving to chosen problem",
+          "instructions": "Follow 5-step model for your chosen problem. Generate at least 5 possible solutions. Choose best option and create action plan.",
+          "materials": [
+            "Problem-solving worksheet template"
+          ]
+        }
+      ],
+      "homeworkAssignments": [
+        "Implement solution from worksheet",
+        "Apply problem-solving to one new problem",
+        "Track effectiveness of solutions"
+      ],
+      "checkpoints": [
+        "Can apply 5-step problem-solving model",
+        "Has implemented at least one solution",
+        "Reports increased sense of control"
+      ]
+    },
+    {
+      "week": 8,
+      "phase": "Social Skills",
+      "title": "Improving Social Connections and Communication",
+      "goals": [
+        "Enhance social engagement",
+        "Improve assertive communication",
+        "Strengthen support network"
+      ],
+      "objectives": [
+        "Identify social withdrawal patterns",
+        "Learn assertiveness skills",
+        "Practice active listening",
+        "Plan social activities"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "w8e1",
+          "name": "Social Network Mapping",
+          "type": "assessment",
+          "duration": 15,
+          "description": "Assess current social connections and identify gaps",
+          "instructions": "Create a map of current relationships. Identify supportive people, neutral people, draining relationships. Note desired changes.",
+          "materials": [
+            "Social network map template"
+          ]
+        },
+        {
+          "exerciseId": "w8e2",
+          "name": "Assertiveness Training",
+          "type": "behavioral",
+          "duration": 15,
+          "description": "Learn and practice assertive communication",
+          "instructions": "Review passive, aggressive, and assertive styles. Practice 'I' statements. Role-play common scenarios.",
+          "materials": [
+            "Assertiveness handout",
+            "I-statement template",
+            "Practice scenarios"
+          ]
+        },
+        {
+          "exerciseId": "w8e3",
+          "name": "Social Activity Planning",
+          "type": "planning",
+          "duration": 10,
+          "description": "Schedule social activities for the week",
+          "instructions": "Plan 2-3 social activities (in-person or virtual). Start small: coffee with friend, family dinner, online group.",
+          "materials": [
+            "Social activities list",
+            "Planning calendar"
+          ]
+        }
+      ],
+      "homeworkAssignments": [
+        "Complete planned social activities",
+        "Practice assertiveness in one situation",
+        "Reach out to one person from support network"
+      ],
+      "checkpoints": [
+        "Has identified social support system",
+        "Demonstrates assertiveness skills",
+        "Has engaged in social activities"
+      ]
+    },
+    {
+      "week": 9,
+      "phase": "Integration",
+      "title": "Integrating CBT Skills",
+      "goals": [
+        "Practice all learned skills together",
+        "Identify most helpful techniques",
+        "Apply skills to real-life challenges"
+      ],
+      "objectives": [
+        "Review all CBT techniques learned",
+        "Identify personal \"tool kit\" of most effective strategies",
+        "Apply multiple techniques to current situations",
+        "Build confidence in using skills independently"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "w9e1",
+          "name": "CBT Skills Review",
+          "type": "review",
+          "duration": 15,
+          "description": "Review all techniques learned in weeks 1-8",
+          "instructions": "List all skills learned: behavioral activation, thought records, core beliefs, problem-solving, social skills. Rate helpfulness (1-10).",
+          "materials": [
+            "Skills review checklist"
+          ]
+        },
+        {
+          "exerciseId": "w9e2",
+          "name": "Personal Coping Card",
+          "type": "planning",
+          "duration": 15,
+          "description": "Create a personalized quick reference guide",
+          "instructions": "On a card, write: (1) Your top 5 most helpful skills, (2) Warning signs of depression return, (3) Emergency contacts.",
+          "materials": [
+            "Coping card template"
+          ]
+        },
+        {
+          "exerciseId": "w9e3",
+          "name": "Case Formulation",
+          "type": "cognitive",
+          "duration": 20,
+          "description": "Create your personal CBT case formulation",
+          "instructions": "Map out: your core beliefs \u2192 intermediate beliefs \u2192 automatic thoughts \u2192 behaviors \u2192 consequences. Identify vicious cycles.",
+          "materials": [
+            "Case formulation template"
+          ]
+        }
+      ],
+      "homeworkAssignments": [
+        "Use at least 3 different CBT skills this week",
+        "Carry coping card with you",
+        "Notice which skills work best in which situations"
+      ],
+      "checkpoints": [
+        "Can identify personal most effective skills",
+        "Has created coping card",
+        "Demonstrates integrated use of skills"
+      ]
+    },
+    {
+      "week": 10,
+      "phase": "Relapse Prevention - Part 1",
+      "title": "Recognizing Warning Signs and Triggers",
+      "goals": [
+        "Identify personal depression warning signs",
+        "Recognize high-risk situations and triggers",
+        "Create early intervention plan"
+      ],
+      "objectives": [
+        "List early warning signs of depression return",
+        "Identify triggers and high-risk situations",
+        "Distinguish lapses from relapses",
+        "Develop contingency plans"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "w10e1",
+          "name": "Warning Signs Identification",
+          "type": "assessment",
+          "duration": 15,
+          "description": "Identify your personal depression warning signs",
+          "instructions": "Reflect on past depressive episodes. List: first signs, early symptoms, behavioral changes. Rate how early each sign appears.",
+          "materials": [
+            "Warning signs worksheet"
+          ]
+        },
+        {
+          "exerciseId": "w10e2",
+          "name": "Triggers and High-Risk Situations",
+          "type": "assessment",
+          "duration": 15,
+          "description": "Identify situations that increase depression risk",
+          "instructions": "List: stressful life events, seasonal patterns, relationship issues, work stress, sleep disruption. Rate risk level for each.",
+          "materials": [
+            "Triggers inventory"
+          ]
+        },
+        {
+          "exerciseId": "w10e3",
+          "name": "Early Intervention Plan",
+          "type": "planning",
+          "duration": 15,
+          "description": "Create action plan for early warning signs",
+          "instructions": "For each warning sign, specify: (1) CBT skills to use, (2) Who to contact, (3) Activities to increase, (4) When to seek help.",
+          "materials": [
+            "Early intervention plan template"
+          ]
+        }
+      ],
+      "homeworkAssignments": [
+        "Review and refine early intervention plan",
+        "Share plan with trusted person",
+        "Practice implementing plan for minor mood dip"
+      ],
+      "checkpoints": [
+        "Has identified personal warning signs",
+        "Has completed early intervention plan",
+        "Can distinguish lapse from relapse"
+      ]
+    },
+    {
+      "week": 11,
+      "phase": "Relapse Prevention - Part 2",
+      "title": "Maintaining Gains and Building Resilience",
+      "goals": [
+        "Solidify skills and gains",
+        "Build long-term resilience",
+        "Create ongoing wellness plan"
+      ],
+      "objectives": [
+        "Review progress since week 1",
+        "Identify factors that contributed to improvement",
+        "Create maintenance schedule for CBT skills",
+        "Develop long-term wellness strategies"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "w11e1",
+          "name": "Progress Review",
+          "type": "review",
+          "duration": 15,
+          "description": "Assess changes since beginning of program",
+          "instructions": "Compare current PHQ-9 to baseline. List: symptoms improved, skills mastered, goals achieved, areas still challenging.",
+          "materials": [
+            "Progress tracking worksheet",
+            "PHQ-9 comparison"
+          ]
+        },
+        {
+          "exerciseId": "w11e2",
+          "name": "Resilience Building",
+          "type": "psychoeducation",
+          "duration": 15,
+          "description": "Learn strategies for long-term mental health",
+          "instructions": "Review resilience factors: social support, self-care, meaning/purpose, healthy lifestyle. Rate current level of each (1-10).",
+          "materials": [
+            "Resilience factors handout"
+          ]
+        },
+        {
+          "exerciseId": "w11e3",
+          "name": "Maintenance Plan",
+          "type": "planning",
+          "duration": 20,
+          "description": "Create ongoing practice schedule",
+          "instructions": "Schedule: weekly thought records, monthly goal review, ongoing behavioral activation, regular social activities. Set calendar reminders.",
+          "materials": [
+            "Maintenance schedule template"
+          ]
+        }
+      ],
+      "homeworkAssignments": [
+        "Set up maintenance schedule reminders",
+        "Continue all helpful CBT practices",
+        "Reflect on what worked best"
+      ],
+      "checkpoints": [
+        "Has reviewed progress objectively",
+        "Has created maintenance plan",
+        "Demonstrates confidence in managing future challenges"
+      ]
+    },
+    {
+      "week": 12,
+      "phase": "Termination",
+      "title": "Program Completion and Moving Forward",
+      "goals": [
+        "Consolidate learning",
+        "Celebrate progress",
+        "Transition to independent practice"
+      ],
+      "objectives": [
+        "Review entire CBT program",
+        "Acknowledge progress and achievements",
+        "Finalize relapse prevention plan",
+        "Plan for ongoing support if needed"
+      ],
+      "exercises": [
+        {
+          "exerciseId": "w12e1",
+          "name": "Program Review",
+          "type": "review",
+          "duration": 20,
+          "description": "Comprehensive review of 12-week program",
+          "instructions": "Review each week's focus. Note key learnings, most helpful exercises, breakthrough moments. Create personal highlights list.",
+          "materials": [
+            "Program summary document"
+          ]
+        },
+        {
+          "exerciseId": "w12e2",
+          "name": "Relapse Prevention Final Plan",
+          "type": "planning",
+          "duration": 20,
+          "description": "Finalize comprehensive relapse prevention strategy",
+          "instructions": "Combine: warning signs, triggers, early intervention plan, maintenance schedule, support contacts, when to seek help.",
+          "materials": [
+            "Comprehensive relapse prevention plan template"
+          ]
+        },
+        {
+          "exerciseId": "w12e3",
+          "name": "Letter to Future Self",
+          "type": "cognitive",
+          "duration": 15,
+          "description": "Write letter to read during future challenges",
+          "instructions": "Write to yourself: What you've learned, how far you've come, what helps, encouragement for tough times. Seal and save.",
+          "materials": [
+            "Letter template and envelope"
+          ]
+        }
+      ],
+      "homeworkAssignments": [
+        "Complete final PHQ-9 assessment",
+        "Review letter to future self in 3 months",
+        "Continue maintenance plan",
+        "Schedule follow-up if desired"
+      ],
+      "checkpoints": [
+        "Has completed program successfully",
+        "Has finalized relapse prevention plan",
+        "Feels confident managing depression independently"
+      ]
+    }
+  ],
+  "progressTracking": {
+    "metrics": [
+      "PHQ-9 score (weekly)",
+      "Exercise completion rate",
+      "Mood ratings",
+      "Activity levels",
+      "Thought records completed",
+      "Skills application frequency"
+    ],
+    "milestones": [
+      {
+        "week": 4,
+        "description": "Baseline to week 4 PHQ-9 reduction of 20%"
+      },
+      {
+        "week": 8,
+        "description": "Consistent use of at least 3 CBT skills"
+      },
+      {
+        "week": 12,
+        "description": "PHQ-9 score in minimal or mild range"
+      }
+    ]
+  },
+  "supportResources": {
+    "crisisContacts": [
+      {
+        "name": "988 Suicide & Crisis Lifeline",
+        "phone": "988",
+        "available": "24/7"
+      },
+      {
+        "name": "Crisis Text Line",
+        "phone": "Text HOME to 741741",
+        "available": "24/7"
+      }
+    ],
+    "additionalResources": [
+      "CBT self-help books recommended list",
+      "Online CBT tools and apps",
+      "Support group information",
+      "Therapist directory for ongoing care"
+    ]
+  },
+  "completionCriteria": {
+    "minimumWeeks": 8,
+    "exerciseCompletionRate": 70,
+    "phq9Improvement": 30,
+    "demonstratedSkills": [
+      "Behavioral activation",
+      "Thought records",
+      "Cognitive restructuring",
+      "Problem solving"
+    ]
+  },
+  "references": [
+    "Beck, A.T., Rush, A.J., Shaw, B.F., & Emery, G. (1979). Cognitive Therapy of Depression. Guilford Press.",
+    "Greenberger, D., & Padesky, C.A. (2015). Mind Over Mood, Second Edition. Guilford Press.",
+    "Wright, J.H., Brown, G.K., Thase, M.E., & Basco, M.R. (2017). Learning Cognitive-Behavior Therapy, Second Edition. American Psychiatric Publishing.",
+    "Cuijpers, P., et al. (2013). A meta-analysis of cognitive-behavioural therapy for adult depression. Journal of Affective Disorders, 142(1-3), 27-35."
+  ],
+  "lastUpdated": "2025-11-23",
+  "developedBy": "clinical Clinical Team",
+  "reviewedBy": "Licensed Clinical Psychologists"
+}
