@@ -1,10 +1,10 @@
-# Clinical Protocol State-Machine Router & Reflective Time-Gapped Delivery Queue
+# Clinical Protocol State-Machine Router & Reflective Self-determinate Timed Delivery Queue
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3+-3178C6.svg)](https://www.typescriptlang.org/)
 [![Therapeutic Frameworks](https://img.shields.io/badge/Modalities-CBT%20%7C%20DBT%20%7C%20ACT%20%7C%20Somatic-blueviolet.svg)](#bundled-clinical-protocols)
 
-A deterministic clinical state-machine router and reflective time-gapped message delivery engine. Built to manage multi-week evidence-based psychotherapy programs, transition patient trajectories across structured treatment phases, and prevent conversational flooding through therapeutically paced delivery queues.
+A deterministic clinical state-machine router and reflective self-determinate timed message delivery engine. Built to manage multi-week evidence-based psychotherapy programs, transition patient trajectories across structured treatment phases, and prevent conversational flooding through therapeutically paced delivery queues.
 
 ---
 
